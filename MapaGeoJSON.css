@@ -4,6 +4,7 @@
     Estilo para la página principal del sitio web
 **********************************************/
 /*Especificidad:(0,0,1) A=0 B=0 C=1*/
+/*Especificidad:(0,0,1) A=0 B=0 C=1*/
 #map {
     height: 360px;
     width: 300px;
@@ -15,7 +16,7 @@
 
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgb(255, 204, 204);
+    background-color: crimson;
     color: white;
 }
 
