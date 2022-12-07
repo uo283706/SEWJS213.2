@@ -88,7 +88,7 @@ parseGeoJSON(jsonAsText){
 initMap() {
 
   
-  this.map = new google.maps.Map(document.querySelector('main'), {
+  this.map = new google.maps.Map(document.querySelector('section'), {
     center: new google.maps.LatLng(40.42028, -3.70577),
     zoom: 2,
     mapTypeId: 'terrain'
